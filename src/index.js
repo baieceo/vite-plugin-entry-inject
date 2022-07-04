@@ -32,7 +32,7 @@ function vitePluginEntryInject(config) {
                     }
                 };
 
-                html = html.replace(injectMap[inject].tag, injectMap[inject].template);
+                html = html.replace(injectMap[injectTo].tag, injectMap[injectTo].template);
             }
 
             return html;

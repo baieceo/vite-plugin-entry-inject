@@ -26,11 +26,13 @@ export default {
 ## 参数
 
 ### `injectTo`
-入口文件注入位置，默认`body`，即body闭合标签`</body>`前，可选。
-#### `head-prepend`: `<head>`开始标签后
-#### `head`: `</head>`闭合标签前
-#### `body-prepend`: `<body>`开始标签后
-#### `body`: `</body>`闭合标签前
 
 - **Type:** `string`
 - **Default:** `body`
+
+入口文件注入位置，默认`body`，即body闭合标签`</body>`前，可选。
+
+* `head-prepend`: `<head>`开始标签后
+* `head`: `</head>`闭合标签前
+* `body-prepend`: `<body>`开始标签后
+* `body`: `</body>`闭合标签前
